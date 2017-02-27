@@ -1,9 +1,7 @@
 angular2-threatconnect
 ######################
 
-.. Note:: This module is in early development and will undergo frequent changes when required.
-
-.. note::  This is a **note** box.
+**This module is in early development and will undergo frequent changes when required.**
 
 Documentation
 =============
