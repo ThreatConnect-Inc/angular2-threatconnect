@@ -16,7 +16,7 @@
     }
   ],
   "dependencies": {
-    "angular2-spaces-src": "git+ssh://git@bitbucket.org:threatconnectinc/angular2-spaces.git#ng2-2.4.5"
+    "angular2-spaces-src": "git+https://github.com/ThreatConnect-Inc/angular2-spaces.git#master"
   },
   "description": "ThreatConnect SDK for Angular 2.",
   "devDependencies": {
@@ -40,13 +40,12 @@
     "grunt-typings": "^0.1.5",
     "reflect-metadata": "^0.1.3",
     "rxjs": "5.1.0",
-    "tributejs": "2.3.2",
     "tslint": "4.4.2",
     "typedocs": "^0.6.3",
     "typescript": "2.1.5",
     "zone.js": "^0.7.2"
   },
-  "homepage": "https://bitbucket.org/threatconnectinc/angular2-threatconnect",
+  "homepage": "https://github.com/ThreatConnect-Inc/angular2-threatconnect",
   "keywords": [
     "ThreatConnect",
     "SDK",
@@ -71,7 +70,7 @@
   "readme": "",
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:threatconnectinc/angular2-threatconnect.git"
+    "url": "https://github.com/ThreatConnect-Inc/angular2-threatconnect"
   },
   "scripts": {
     "preinstall": "typings install",
@@ -79,5 +78,5 @@
     "test": "npm test"
   },
   "typings": "./typings/index.d.ts",
-  "version": "0.0.1"
+  "version": "0.1.0"
 }
