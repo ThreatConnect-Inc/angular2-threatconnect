@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "outDir": "dist",
+        "removeComments": false,
+        "sourceMap": false,
+        "target": "ES5"
+    },
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "files": [
+        "./typings/index.d.ts",
+        "./main.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
