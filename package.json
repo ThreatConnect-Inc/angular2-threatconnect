@@ -16,7 +16,7 @@
     }
   ],
   "dependencies": {
-    "angular2-spaces-src": "git+https://github.com/oBusk/angular2-spaces.git#master"
+    "angular2-spaces": "git+https://github.com/oBusk/angular2-spaces.git#master"
   },
   "description": "ThreatConnect SDK for Angular 2.",
   "devDependencies": {
