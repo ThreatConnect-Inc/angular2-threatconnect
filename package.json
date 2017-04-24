@@ -16,7 +16,7 @@
     }
   ],
   "dependencies": {
-    "angular2-spaces-src": "git+https://github.com/ThreatConnect-Inc/angular2-spaces.git#master"
+    "angular2-spaces-src": "git+https://github.com/oBusk/angular2-spaces.git#master"
   },
   "description": "ThreatConnect SDK for Angular 2.",
   "devDependencies": {
@@ -29,6 +29,7 @@
     "@angular/platform-browser-dynamic": "2.4.5",
     "@angular/router": "3.4.5",
     "@angular/upgrade": "2.4.5",
+    "@types/core-js": "^0.9.41",
     "codelyzer": "^2.0.0-beta.4",
     "core-js": "^2.4.0",
     "grunt": "^1.0.1",
@@ -73,7 +74,6 @@
     "url": "https://github.com/ThreatConnect-Inc/angular2-threatconnect"
   },
   "scripts": {
-    "preinstall": "typings install",
     "postinstall": "tsc",
     "test": "npm test"
   },

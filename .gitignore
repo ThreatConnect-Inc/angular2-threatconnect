@@ -3,7 +3,6 @@
 angular2-threatconnect/*
 lib/.baseDir.ts
 .tscache
-typings/*
 
 # Node generated files
 
