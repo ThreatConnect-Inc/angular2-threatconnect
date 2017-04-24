@@ -7,13 +7,7 @@ import { TcOwnerService } from './lib/tc_owner.service';
 import { TcSecurityLabelService } from './lib/tc_security_labels.service';
 import { TcUtilityService } from './lib/tc_utility.service';
 
-// Third part
-import { GrowlModule } from 'primeng/primeng';
-
 @NgModule({
-    imports: [
-        GrowlModule,
-    ],
     providers: [
         TcExchangeDbService,
         TcGroupService,
