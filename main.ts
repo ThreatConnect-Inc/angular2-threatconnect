@@ -7,7 +7,12 @@ import { TcOwnerService } from './lib/tc_owner.service';
 import { TcSecurityLabelService } from './lib/tc_security_labels.service';
 import { TcUtilityService } from './lib/tc_utility.service';
 
+import { SpacesModule } from 'angular2-spaces/main';
+
 @NgModule({
+    imports: [
+        SpacesModule,
+    ],
     providers: [
         TcExchangeDbService,
         TcGroupService,
