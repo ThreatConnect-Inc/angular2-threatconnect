@@ -53,7 +53,7 @@
     "angular2"
   ],
   "license": "Apache-2.0",
-  "main": "main.js",
+  "main": "dist/main.js",
   "maintainers": [
     {
       "email": "bsummers@threatconnect.com",
@@ -64,7 +64,7 @@
       "name": "Chris Blades"
     }
   ],
-  "name": "angular2-threatconnect-src",
+  "name": "angular2-threatconnect",
   "optionalDependencies": {},
   "peerDependencies": {},
   "readme": "",
@@ -74,9 +74,9 @@
   },
   "scripts": {
     "preinstall": "typings install",
-    "postinstall": "tsc && mv dist ../angular2-threatconnect",
+    "postinstall": "tsc",
     "test": "npm test"
   },
-  "typings": "./typings/index.d.ts",
+  "typings": "./main.ts",
   "version": "0.1.0"
 }
