@@ -12,6 +12,12 @@ export const RESOURCE_TYPE = {
         'type': 'Adversary',
         'uri': 'v2/groups/adversaries',
     },
+
+    Campaign: {
+        'dataField': 'campaign',
+        'type': 'Campaign',
+        'uri': 'v2/groups/campaigns',
+    },
     
     Document: {
         'dataField': 'document',
