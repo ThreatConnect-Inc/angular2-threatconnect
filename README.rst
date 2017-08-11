@@ -1,3 +1,9 @@
+##########
+DEPRECATED
+##########
+
+.. important:: Please Refer to updated App locate at https://github.com/ThreatConnect-Inc/threatconnect-ng.
+
 angular2-threatconnect
 ######################
 
